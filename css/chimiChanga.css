@@ -32,6 +32,11 @@ textarea:focus, input:focus{
     border: 4px solid white;
 }
 
+.article > .input-group {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .container-social{
 	background: linear-gradient(to top, #F6A40C, #EF4035);
     padding: 15px;
@@ -99,17 +104,15 @@ img{
 	padding-top: 15px;
 }
 
+.width-line{
+	width: 90%;
+}
+
 @media screen and (min-width: 995px) , screen and (max-width: 1200px) {
 .article{
 	background: linear-gradient(to top, #F6A40C, #EF4035);
 	height: 498px;
 	margin-bottom: 15px;
-}
-
-.article > .input-group {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 173.5px;
 }
 }
 
@@ -120,12 +123,6 @@ img{
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
-
-.article > .input-group {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 0;
-}
 }
 
 @media screen and (min-width: 1200px) { 
@@ -133,11 +130,5 @@ img{
 	background: linear-gradient(to top, #F6A40C, #EF4035);
 	height: 440px;
 	margin-bottom: 15px;
-}
-
-.article > .input-group {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 146px;
 }
 }
