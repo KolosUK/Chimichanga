@@ -19,7 +19,7 @@ textarea:focus, input:focus{
 	height: 50px;
 }
 .btn-copy{
-	background-color: rgba(243, 241, 234, .0);
+	background-color: black;
 	padding-right: 37px;
     height: 50px;
     border-radius: 0;
@@ -27,7 +27,7 @@ textarea:focus, input:focus{
 }
 
 .btn-copy:hover {
-	background-color: rgba(243, 241, 234, .0);
+	background-color: black;
 	border-radius: 0;
     border: 4px solid white;
 }
@@ -54,16 +54,15 @@ i{
 
 .container-white{
 	background-color: white;
-	height: 100vh;
 }
 
 .container-contant{
-	background-image: url(../img/img-for-chimichanga/group-shot-1180x5501.jpg);
+	background-image: url(../img/img-for-chimichanga/Refer-a-friend.jpg);
 	width: 99%;
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+ 	height: calc(100vh - 48px);
 }
 
 hr{
@@ -74,10 +73,6 @@ hr{
     padding-left: 15px;
     color:white;
     padding-right: 10px;
-}
-
-img{
-    width: 43%;
 }
 
 .form-control{
@@ -108,27 +103,85 @@ img{
 	width: 90%;
 }
 
-@media screen and (min-width: 995px) , screen and (max-width: 1200px) {
 .article{
 	background: linear-gradient(to top, #F6A40C, #EF4035);
-	height: 498px;
+	height: 150px;
 	margin-bottom: 15px;
+}
+
+.about > p {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+.list-inline>li{
+	padding: 0;
+	padding-right: 10px;
+}
+ 
+ header{
+ 	background: white;
+ }
+ 
+ li > a > img{
+ 	width: 30px;
+ }
+
+ li > div> a > img{
+ 	width: 30px;
+ }
+
+ li > img {
+ 	width: 30px;
+ 	cursor: pointer;
+ }
+
+ .logo{
+	width: 200px;
+}
+
+ .position-container{
+ 	padding-top: 20px;
+ }
+
+@media screen and (min-width: 995px) , screen and (max-width: 1200px) {
+	.about{
+	background: linear-gradient(to top, #F6A40C, #EF4035);
+	height: 334px;
+	color: white;
+}
+
+.advertisment{
+	height: calc(100vh - 610px);
+    max-width: 80%;
 }
 }
 
 @media screen and (max-width: 990px) { 
-.article{
+.about{
 	background: linear-gradient(to top, #F6A40C, #EF4035);
 	height: auto;
-	margin-bottom: 15px;
-	padding-bottom: 15px;
+	color: white;
+	padding-bottom: 1px;
+	margin-bottom: 10px;
+}
+
+.advertisment{
+	height: calc(100vh - 530px);
+    max-width: 80%;
 }
 }
 
 @media screen and (min-width: 1200px) { 
-.article{
+.about{
 	background: linear-gradient(to top, #F6A40C, #EF4035);
-	height: 440px;
-	margin-bottom: 15px;
+	height:275px;
+	color: white;
+}
+
+.advertisment{
+	height: calc(100vh - 530px);
+    max-width: 80%;
 }
 }
