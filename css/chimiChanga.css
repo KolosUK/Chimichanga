@@ -23,13 +23,11 @@ textarea:focus, input:focus{
 	padding-right: 37px;
     height: 50px;
     border-radius: 0;
-    border: 4px solid white;
 }
 
 .btn-copy:hover {
 	background-color: black;
 	border-radius: 0;
-    border: 4px solid white;
 }
 
 .article > .input-group {
