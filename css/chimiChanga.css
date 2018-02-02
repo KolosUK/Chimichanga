@@ -57,12 +57,12 @@ i{
 }
 
 .container-contant{
-	background-image: url(../img/img-for-chimichanga/Refer-a-friend.jpg);
+	background-image: url(http://img.taste.com.au/ouD8tICl/taste/2016/11/chicken-and-cheese-chimichangas-97477-1.jpeg);
 	width: 99%;
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 	height: calc(100vh - 48px);
+ 	height: calc(100vh - 68px);
 }
 
 hr{
@@ -117,44 +117,46 @@ hr{
 
 .list-inline>li{
 	padding: 0;
-	padding-right: 10px;
+	padding-right: 4px;
 }
  
  header{
  	background: white;
  }
  
- li > a > img{
- 	width: 30px;
- }
+.social-button {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    padding-top: 9px;
+}
 
- li > div> a > img{
- 	width: 30px;
- }
-
- li > img {
- 	width: 30px;
- 	cursor: pointer;
- }
+.social-button > img {
+	width: 58%;
+}
 
  .logo{
-	width: 200px;
+	width: 290px;
 }
 
  .position-container{
  	padding-top: 20px;
  }
 
+.js-textareacopybtn {
+	cursor: pointer;
+}
+
 @media screen and (min-width: 995px) , screen and (max-width: 1200px) {
 	.about{
 	background: linear-gradient(to top, #F6A40C, #EF4035);
-	height: 334px;
+	height: 326px;
 	color: white;
 }
 
-.advertisment{
-	height: calc(100vh - 610px);
-    max-width: 80%;
+.white-block {
+    background-color: white;
+    height: calc(100vh - 615px);
 }
 }
 
@@ -167,21 +169,21 @@ hr{
 	margin-bottom: 10px;
 }
 
-.advertisment{
-	height: calc(100vh - 530px);
-    max-width: 80%;
+.white-block {
+    background-color: white;
+    height: calc(100vh - 560px);
 }
 }
 
 @media screen and (min-width: 1200px) { 
 .about{
 	background: linear-gradient(to top, #F6A40C, #EF4035);
-	height:275px;
+	height:266px;
 	color: white;
 }
 
-.advertisment{
-	height: calc(100vh - 530px);
-    max-width: 80%;
+.white-block {
+    background-color: white;
+    height: calc(100vh - 560px);
 }
 }
