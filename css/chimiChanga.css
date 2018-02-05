@@ -141,6 +141,15 @@ hr{
  	padding-top: 20px;
  }
 
+.size-text{
+	padding-top: 1px;
+}
+
+strong{
+	font-size: 13px;
+    color: white;
+}
+
 .js-textareacopybtn {
 	cursor: pointer;
 }
@@ -154,7 +163,7 @@ hr{
 
 .white-block {
     background-color: white;
-    height: calc(100vh - 615px);
+    height: calc(100vh - 630px);
 }
 }
 
@@ -182,6 +191,6 @@ hr{
 
 .white-block {
     background-color: white;
-    height: calc(100vh - 560px);
+    height: calc(100vh - 580px);
 }
 }
